@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/labeltwo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/username_label_text" />
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labeltwo"
+        android:inputType="text"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/labelthree"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uname"
+        android:text="@string/firstname_label_text" />
+
+    <EditText
+        android:id="@+id/first"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelthree"
+        android:inputType="text"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/labelfour"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first"
+        android:text="@string/lastname_label_text" />
+
+    <EditText
+        android:id="@+id/last"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelfour"
+        android:inputType="text"
+        android:text="" />
+
+    <CheckBox
+        android:id="@+id/fuzz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/last"
+        android:text="@string/fuzz_text" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/fuzz"
+        android:layout_marginLeft="115dp"
+        android:onClick="saveClicked"
+        android:text="@string/save_button_text" />
+
+</RelativeLayout>

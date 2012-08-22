@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/address_text" />
+
+    <EditText
+        android:id="@+id/entry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label"
+        android:text="@string/default_address" />
+
+    <TextView
+        android:id="@+id/rlabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/entry"
+        android:text="@string/radius_text" />
+
+    <EditText
+        android:id="@+id/rentry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlabel"
+        android:text="@string/default_radius" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rentry"
+        android:onClick="searchClicked"
+        android:text="@string/search_button_text" />
+
+<!--     <Button -->
+<!--         android:id="@+id/search" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_below="@+id/rentry" -->
+<!--         android:onClick="searchClicked" -->
+<!--         android:text="Search" /> -->
+
+</RelativeLayout>

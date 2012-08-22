@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TerraPinActivity!</string>
+    <string name="app_name">TerraPin</string>
+    <string name="username">achanda</string>
+    <string name="ip">172.31.124.108</string>
+    <string name="location_text">Attach location</string>
+    <string name="timestamp_text">Attach timestamp</string>
+    <string name="snap_button_text">Snap</string>
+    <string name="upload_button_text">Upload</string>
+    <string name="username_label_text">Enter username:</string>
+    <string name="firstname_label_text">Enter firstname:</string>
+    <string name="lastname_label_text">Enter lastname:</string>
+    <string name="save_button_text">Save</string>
+    <string name="fuzz_text">Enable location fuzzing</string>
+    <string name="content_description">The image you just took</string>
+    <string name="address_text">Type and address here:</string>
+    <string name="default_address">1600 Amphitheatre Parkway, Mountain View, CA</string>
+    <string name="default_radius">1</string>
+    <string name="radius_text">Enter search radius (in miles):</string>
+    <string name="search_button_text">Search</string>
+
+</resources>
